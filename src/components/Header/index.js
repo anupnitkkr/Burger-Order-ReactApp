@@ -1,6 +1,6 @@
 import React from "react";
 const Header = props => {
-  console.log("props : ", props);
+  console.log("Header props : ", props);
   return (
     <header className="Toolbar__Toolbar">
       <div className="Toolbar__Home">Home</div>

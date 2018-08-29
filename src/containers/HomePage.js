@@ -66,7 +66,7 @@ class HomePage extends React.Component {
 
     return (
       <React.Fragment>
-        <Header />
+        <Header {...this.props}/>
         {info}
       </React.Fragment>
     );

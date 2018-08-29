@@ -34,7 +34,6 @@ class CheckoutPage extends React.Component {
     axios
       .post("https://burger-api.firebaseio.com/orders.json", order)
       .then(response => {
-        console.log("response : ", response);
         this.props.history.push("/orders");
       });
   }

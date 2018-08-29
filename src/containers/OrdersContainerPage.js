@@ -17,7 +17,6 @@ class OrdersPage extends React.Component {
   }
 
   render() {
-    console.log("this.props : ", this.props);
     const newProps = { ...this.props, ...this.state };
 
     const info = this.props.loading ? (
